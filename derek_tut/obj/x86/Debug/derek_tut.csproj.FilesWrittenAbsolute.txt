@@ -1,0 +1,5 @@
+/Users/pristinetran/phuc/C#_derek/derek_tut/derek_tut/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/pristinetran/phuc/C#_derek/derek_tut/derek_tut/bin/Debug/derek_tut.exe.mdb
+/Users/pristinetran/phuc/C#_derek/derek_tut/derek_tut/bin/Debug/derek_tut.exe
+/Users/pristinetran/phuc/C#_derek/derek_tut/derek_tut/obj/x86/Debug/derek_tut.exe
+/Users/pristinetran/phuc/C#_derek/derek_tut/derek_tut/obj/x86/Debug/derek_tut.exe.mdb
