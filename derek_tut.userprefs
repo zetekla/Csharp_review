@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{20B840D0-6F29-45C3-8F47-5AADA0DF42CA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="derek_tut/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="derek_tut/ShapeMath.cs">
     <Files>
-      <File FileName="derek_tut/Program.cs" Line="1" Column="1" />
+      <File FileName="derek_tut/Program.cs" Line="11" Column="29" />
+      <File FileName="derek_tut/Animal.cs" Line="26" Column="23" />
+      <File FileName="derek_tut/ShapeMath.cs" Line="10" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
