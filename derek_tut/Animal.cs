@@ -9,14 +9,14 @@ namespace derek_tut
 	class Animal
 	{
 		private string name;
-		private string sound;
+		protected string sound;
 
 		public const string SHELTER = "Derek's Home for Animals";
 		public readonly int idNum;
 
 		public void MakeSound()
 		{
-			Console.WriteLine("{0} says {1}", name, sound);
+			Console.WriteLine($"{Name} says {Sound}");
 		}
 
 		public Animal() : this("No Name", "No Sound")
@@ -28,33 +28,24 @@ namespace derek_tut
 
 		public Animal(string name, string sound)
 		{
-			SetName(name);
+			Name = name;
 			Sound = sound;
-			NumberOfAnimals = 1;
-
-			Random rnd = new Random();
-			idNum = rnd.Next(1,2147483640);
 		}
 
 		// Setter = Mutator
-		public void SetName(string name)
+		public void Name
 		{
-			if (!name.Any(char.IsDigit))
+			get { return name; }
+			set
 			{
-				this.name = name;
-			}
-			else
-			{
-				this.name = "No Name";
-				Console.WriteLine("Name can't contain numbers");
+				if (!value.Any(char.IsDigit))
+				{
+					name = "No Name";
+				}
+				name = value;
 			}
 		}
 
-		// Getter = Accessor
-		public string GetName()
-		{
-			return name;
-		}
 
 		public string Sound
 		{
