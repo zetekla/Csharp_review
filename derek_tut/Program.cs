@@ -8,35 +8,29 @@ namespace derek_tut
 	{
 		static void Main(string[] args)
 		{
-			Animal fox = new Animal()
-			{
-				name = "Red",
-				sound = "Raaww"
-			};
+			Animal cat = new Animal();
+			cat.SetName("Whiskers");
+			cat.Sound = "Meow";
 
-			fox.MakeSound();
-			Console.WriteLine("# of Animals: {0} ", Animal.GetNumAnimals());
+			Console.WriteLine("The cat is named {0} and says {1}", cat.GetName(), cat.Sound);
 
-			Console.WriteLine("Area of Rectangle: {0}", ShapeMath.GetArea("rectangle", 5, 6));
+			cat.Owner = "Derek";
 
-			int? randNum = null;
-			if (randNum == null)
-			{
-				Console.WriteLine("randNum is null");
-			}
+			Console.WriteLine("{0} owner is {1}", cat.GetName(), cat.Owner);
 
-			if (!randNum.HasValue)
-			{
-				Console.WriteLine("randNum doesn't have Value");
-			}
-		}
+			Console.WriteLine("{0} shelter id is {1}", cat.GetName(), cat.idNum);
 
-		static bool CanIVote()
-		{
-			Console.WriteLine("How old are you?");
-			int age = 0;
-			age = Int32.Parse(Console.ReadLine());
-			return (age >= 18);
+			Console.WriteLine("# of Animals: {0}", Animal.numOfAnimals);
+
+			Animal cat2 = new Animal();
+			cat2.SetName("Petty");
+
+			Console.WriteLine("The cat2 is named {0} and says {1}", cat2.GetName(), cat2.Sound);
+
+			Console.WriteLine("{0} shelter id is {1}", cat2.GetName(), cat2.idNum);
+
+			Console.WriteLine("# of Animals: {0}", Animal.numOfAnimals);
+
 		}
 
 	}
