@@ -8,7 +8,61 @@ namespace derek_tut
 	{
 		static void Main(string[] args)
 		{
-			Animal cat = new Animal();
+			Animal whiskers = new Animal()
+			{
+				Name = "Whiskers",
+				Sound = "Meow"
+			};
+
+			Dog grover = new Dog()
+			{
+				Name = "Grover",
+				Sound = "Woof",
+				Sound2 = "Grrrr"
+			};
+
+			grover.Sound = "Wooooooof";
+
+			whiskers.MakeSound();
+			grover.MakeSound();
+
+			whiskers.SetAnimalIDInfo(12345, "Sally Smith");
+
+			grover.SetAnimalIDInfo(12346, "Paul Brown");
+
+			whiskers.GetAnimalIDInfo();
+
+			grover.GetAnimalIDInfo();
+
+			Animal.AnimalHealth getHealth = new Animal.AnimalHealth();
+
+			Console.WriteLine("Is my animal healthy: {0}", getHealth.HealthyWeight(11, 146));
+
+			Animal monkey = new Animal()
+			{
+				Name = "Happy",
+				Sound = "Eeeeeeee"
+			};
+
+			Animal spot = new Dog()
+			{
+				Name = "Spot",
+				Sound = "Wooofff",
+				Sound2 = "Geeerrrr"
+			};
+
+			monkey.MakeSound();
+			spot.MakeSound();
+			// IS-AS relationship OOP Inheritance
+			// Has-A relationship
+
+			// Reptile has Crocodile, Aligator, Stink, Turtle.
+
+			// (electrical) Equipment has-A model
+			// A model has-Many Formats
+
+
+			/* Animal cat = new Animal();
 			cat.SetName("Whiskers");
 			cat.Sound = "Meow";
 
@@ -29,7 +83,7 @@ namespace derek_tut
 
 			Console.WriteLine("{0} shelter id is {1}", cat2.GetName(), cat2.idNum);
 
-			Console.WriteLine("# of Animals: {0}", Animal.numOfAnimals);
+			Console.WriteLine("# of Animals: {0}", Animal.numOfAnimals); */
 
 		}
 

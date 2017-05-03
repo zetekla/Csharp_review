@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{20B840D0-6F29-45C3-8F47-5AADA0DF42CA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="derek_tut/ShapeMath.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="derek_tut/Dog.cs">
     <Files>
-      <File FileName="derek_tut/Program.cs" Line="11" Column="29" />
-      <File FileName="derek_tut/Animal.cs" Line="26" Column="23" />
-      <File FileName="derek_tut/ShapeMath.cs" Line="10" Column="5" />
+      <File FileName="derek_tut/Program.cs" Line="54" Column="4" />
+      <File FileName="derek_tut/Animal.cs" Line="80" Column="43" />
+      <File FileName="derek_tut/ShapeMath.cs" Line="4" Column="31" />
+      <File FileName="derek_tut/Dog.cs" Line="8" Column="30" />
+      <File FileName="derek_tut/AnimalIDInfo.cs" Line="9" Column="7" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

@@ -11,10 +11,22 @@ namespace derek_tut
 		private string name;
 		protected string sound;
 
-		public const string SHELTER = "Derek's Home for Animals";
-		public readonly int idNum;
+		protected AnimalIDInfo animalIDInfo = new AnimalIDInfo();
 
-		public void MakeSound()
+		public void SetAnimalIDInfo(int idNum, string owner)
+		{
+			animalIDInfo.IDNum = idNum;
+			animalIDInfo.Owner = owner;
+		}
+
+
+		public void GetAnimalIDInfo()
+		{
+			Console.WriteLine($"{Name} has the ID of {animalIDInfo.IDNum} and " +
+			                  $"is owned by {animalIDInfo.Owner}");
+		}
+
+		public virtual void MakeSound()
 		{
 			Console.WriteLine($"{Name} says {Sound}");
 		}
@@ -32,8 +44,7 @@ namespace derek_tut
 			Sound = sound;
 		}
 
-		// Setter = Mutator
-		public void Name
+		public string Name
 		{
 			get { return name; }
 			set
@@ -45,7 +56,6 @@ namespace derek_tut
 				name = value;
 			}
 		}
-
 
 		public string Sound
 		{
@@ -61,14 +71,14 @@ namespace derek_tut
 			}
 		}
 
-		public string Owner{ get; set; } = "No Owner";
-
-		public static int numOfAnimals = 0;
-
-		public static int NumberOfAnimals
+		public class AnimalHealth
 		{
-			get { return numOfAnimals; }
-			set { numOfAnimals += value; }
+			public bool HealthyWeight(double height, double weight)
+			{
+				double calc = height / weight;
+
+				return (calc >= .18) && (calc <= .27);
+			}
 		}
 	} 
 }
