@@ -1,9 +1,7 @@
 ﻿<Properties StartupConfiguration="{20B840D0-6F29-45C3-8F47-5AADA0DF42CA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="derek_tut/Battle.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="derek_tut/Program.cs">
     <Files>
       <File FileName="derek_tut/Program.cs" Line="14" Column="36" />
-      <File FileName="derek_tut/Warrior.cs" Line="1" Column="1" />
-      <File FileName="derek_tut/Battle.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
