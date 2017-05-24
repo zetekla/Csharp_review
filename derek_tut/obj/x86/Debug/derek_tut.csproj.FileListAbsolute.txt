@@ -1,0 +1,5 @@
+/Users/admin/Practice/Csharp/Csharp_review/derek_tut/bin/Debug/derek_tut.exe
+/Users/admin/Practice/Csharp/Csharp_review/derek_tut/bin/Debug/derek_tut.pdb
+/Users/admin/Practice/Csharp/Csharp_review/derek_tut/obj/x86/Debug/derek_tut.csproj.CoreCompileInputs.cache
+/Users/admin/Practice/Csharp/Csharp_review/derek_tut/obj/x86/Debug/derek_tut.exe
+/Users/admin/Practice/Csharp/Csharp_review/derek_tut/obj/x86/Debug/derek_tut.pdb
