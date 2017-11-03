@@ -1,0 +1,10 @@
+/Users/admin/Practice/myAsp6App/bin/Debug/netcoreapp2.0/myApp.deps.json
+/Users/admin/Practice/myAsp6App/bin/Debug/netcoreapp2.0/myApp.runtimeconfig.json
+/Users/admin/Practice/myAsp6App/bin/Debug/netcoreapp2.0/myApp.runtimeconfig.dev.json
+/Users/admin/Practice/myAsp6App/bin/Debug/netcoreapp2.0/myApp.dll
+/Users/admin/Practice/myAsp6App/bin/Debug/netcoreapp2.0/myApp.pdb
+/Users/admin/Practice/myAsp6App/obj/Debug/netcoreapp2.0/myApp.csproj.CoreCompileInputs.cache
+/Users/admin/Practice/myAsp6App/obj/Debug/netcoreapp2.0/myApp.AssemblyInfoInputs.cache
+/Users/admin/Practice/myAsp6App/obj/Debug/netcoreapp2.0/myApp.AssemblyInfo.cs
+/Users/admin/Practice/myAsp6App/obj/Debug/netcoreapp2.0/myApp.dll
+/Users/admin/Practice/myAsp6App/obj/Debug/netcoreapp2.0/myApp.pdb
